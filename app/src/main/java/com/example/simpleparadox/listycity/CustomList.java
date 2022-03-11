@@ -70,4 +70,35 @@ public class CustomList extends ArrayAdapter<City> {
 
     }
 
+
+    /**
+     * This method deletes a city if it is in Citylist and throw an exception otherwise
+     * @param city
+     */
+    public void delete(City city){
+
+        /*if(cities.contains(city)){
+            cities.remove(city);
+        }
+        else{
+            throw new IllegalArgumentException();
+        }
+
+         */
+        return;
+    }
+
+    /**
+     * Returns the number of cities in cities
+     * @return
+     * Return the size of cities
+     */
+    /*
+    public int countCities(){
+        Integer size= cities.size();
+        return size;
+    }
+
+     */
+
 }
