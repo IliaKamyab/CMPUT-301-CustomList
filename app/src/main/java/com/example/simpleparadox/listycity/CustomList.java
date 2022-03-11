@@ -73,7 +73,6 @@ public class CustomList extends ArrayAdapter<City> {
 
     /**
      * This method deletes a city if it is in Citylist and throw an exception otherwise
-     * @param city
      */
     public void delete(City city){
 
@@ -84,7 +83,6 @@ public class CustomList extends ArrayAdapter<City> {
             throw new IllegalArgumentException();
         }
 
-        return;
     }
 
     /**
@@ -94,9 +92,8 @@ public class CustomList extends ArrayAdapter<City> {
      */
 
     public int countCities(){
-        //int size= cities.size();
-        //return size;
-        return -1;
+        return cities.size();
+
     }
 
 

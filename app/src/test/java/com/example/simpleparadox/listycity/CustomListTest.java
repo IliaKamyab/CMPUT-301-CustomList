@@ -44,13 +44,13 @@ public class CustomListTest {
     @Test
     void testDeleteException(){
         City city = new City("Regina", "SK");
-        assertThrows(IllegalArgumentException.class, () -> {
-            list.delete(city);
-        });
+        assertThrows(IllegalArgumentException.class, () -> list.delete(city));
     }
 
     @Test
     void testCount(){
+        City city = new City("Calgary", "AB");
+        list.addCity(city);
         assertEquals(1, list.countCities());
     }
 
