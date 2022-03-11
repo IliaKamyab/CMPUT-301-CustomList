@@ -25,9 +25,9 @@ public class CustomListTest {
     }
 
     @Test
-    void testHasCity(){
+    public void testHasCity(){
         City city = new City("Calgary", "AB");
-        list.add(city);
+        list.addCity(city);
         assertEquals(true, list.hasCity(city));
     }
 }
