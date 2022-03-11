@@ -48,11 +48,11 @@ public class CustomListTest {
             list.delete(city);
         });
     }
-/*
+
     @Test
     void testCount(){
         assertEquals(1, list.countCities());
     }
 
- */
+
 }
